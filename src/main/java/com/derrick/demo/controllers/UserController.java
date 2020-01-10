@@ -17,7 +17,7 @@ import com.derrick.demo.models.User;
 import com.derrick.demo.services.UserService;
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/api/user")
 public class UserController {
 	
 	@Autowired
